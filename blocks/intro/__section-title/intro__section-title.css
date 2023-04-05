@@ -1,0 +1,18 @@
+.intro__section-title{
+    max-width: 690px;
+    min-height: 58px;
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 58px;
+    margin: 0px 0px 40px 0px;
+    
+}
+
+
+
+@media screen and (max-width: 320px) {
+    .intro__section-title{
+        max-width: 288px;
+    }
+}

@@ -1,0 +1,21 @@
+.footer__links{
+    max-width: 460px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer__links {
+        margin-bottom: 48px;
+        flex-direction: column;
+        margin-bottom: 32px;
+        align-items: flex-start;
+        padding-left: 16px;
+        padding-right: 118px;
+    }
+ }

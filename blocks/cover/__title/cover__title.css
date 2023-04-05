@@ -1,0 +1,35 @@
+.cover__title{
+    max-width: 560px;
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    margin: 0px 0px 32px 0px;
+    text-align: center;
+    z-index: 1;
+}
+
+
+@media screen and (max-width: 506px) {
+    .cover__title {
+        font-size: 50px;
+
+    }
+ }
+
+
+ @media screen and (max-width: 351px) {
+    .cover__title {
+       font-size: 45px;
+
+    }
+ }
+
+ 
+ @media screen and (max-width: 320px) {
+    .cover__title {
+       max-width: 288px;
+       font-size: 32px;
+       line-height: 35px;
+    }
+ }
