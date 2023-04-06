@@ -1,6 +1,6 @@
 .place__paragraph-block{
     max-width: 484px;
-    font-family: 'Inter';   
+    font-family: 'Inter';
     font-weight: 400;
     font-size: 18px;
     line-height: 163%;
@@ -16,7 +16,7 @@
  @media screen and (max-width: 768px) {
     .place__paragraph-block {
        max-width: 352px;
-;
+       
     }
  }
 
